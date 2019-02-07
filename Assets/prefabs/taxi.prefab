@@ -177,5 +177,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -2
-  grad: -1.2
-  terminal: -3
+  grad: -0.5
+  terminal: -4

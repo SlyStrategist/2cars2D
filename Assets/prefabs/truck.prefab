@@ -182,6 +182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3f06f010d1d924f83c35c662e9f284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2.1
-  grad: -1.4
-  terminal: -3.2
+  speed: -2
+  grad: -0.5
+  terminal: -4

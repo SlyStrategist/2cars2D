@@ -221,7 +221,7 @@ MonoBehaviour:
   - {fileID: 43221898279681074, guid: 7221d18b21f93354ba0d8d374fcb1949, type: 3}
   MaxPos: -0.6
   MinPos: -1.8
-  delays: 2.5
+  delays: 2
 --- !u!4 &449544430
 Transform:
   m_ObjectHideFlags: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
   - {fileID: 43221898279681074, guid: 7221d18b21f93354ba0d8d374fcb1949, type: 3}
   MaxPos: 0.6
   MinPos: 1.8
-  delays: 2.5
+  delays: 2
 --- !u!4 &933124796
 Transform:
   m_ObjectHideFlags: 0

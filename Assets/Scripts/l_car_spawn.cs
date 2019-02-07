@@ -16,7 +16,7 @@ public class l_car_spawn : MonoBehaviour
     void Start()
     {
         Avg = (MaxPos + MinPos) / 2;
-        timer = Random.Range(delays-1, delays);
+        timer = Random.Range(delays, delays+1);
 
 
 
@@ -29,8 +29,8 @@ public class l_car_spawn : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            timer = Random.Range(delays - 1, delays+1);
-            number = Random.Range(0, 7);
+            timer = Random.Range(delays - (float)0.5, delays+1);
+            number = Random.Range(0, 8);
 
             if (Random.Range(MinPos, MaxPos) < Avg)
             {

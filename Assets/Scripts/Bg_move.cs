@@ -7,13 +7,15 @@ public class Bg_move : MonoBehaviour
     public float Speed;
     public float constant;
     public float Gradient;
-    float tspeed = 0;
+    private float tspeed = 0;
+    public static double time;
     Vector2 offset;
 
     // Start is called before the first frame update
     void Start()
     {
         tspeed = Speed;
+        time = Time.deltaTime;
     }
 
     // Update is called once per frame
@@ -33,7 +35,8 @@ public class Bg_move : MonoBehaviour
             GetComponent<Renderer>().material.mainTextureOffset = offset;
 
         }
-        
-        
+        time = Time.deltaTime;
+
+
     }
 }
